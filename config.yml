@@ -1,0 +1,22 @@
+lag_variables:
+  lag: 14
+  max_lag: 30
+  default_min_forecast_lead: 7
+  long_min_forecast_lead: 21
+  predict_day: 5
+
+feature_variables:
+    feat_phone_lag_max: 15
+    feat_invoice_lag_max: 15
+    moving_avg_lag_list: [7, 35]
+    velocity_lag_list: [7]
+    dow_volume_moving_avg_lag_list: [4]
+    dow_perc_moving_avg_lag_list: [8]
+
+misc_variables:
+  metric_end_dates: ['2020-01-31', '2020-02-29']
+  winter_stores: ['CO', 'MI', 'MN', 'other']
+  ci_perc: .90
+  uq_models: ['Ensemble Forecast','XG-Boost']
+  multi_week_forecasts_states: ['OR']
+

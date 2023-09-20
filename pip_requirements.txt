@@ -1,0 +1,15 @@
+numpy
+pandas
+sklearn
+scipy
+pygam
+statsmodels
+shap
+matplotlib
+pywavelets
+scipy
+pathos
+census
+multiprocess
+PyWavelets
+PyYAML
